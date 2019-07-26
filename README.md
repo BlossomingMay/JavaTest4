@@ -1,6 +1,7 @@
 ### 说明
 早上提交docker文件缺少了jar包，需要clone项目然后用IDEA 手动package然后复制到docker/app目录下。
-下午重新提交jar包上去成功了可以直接下载docker文件夹运行了。
+
+下午重新提交jar包上去成功了可以直接下载docker文件夹运行了。我尝试下载了一下，由于jar包比较大不科学上网下载速度有点慢。
 
 切换到docker目录执行build.sh,curl.sh,stop.sh
 其中，.sh文件缺少了执行权限，需要
