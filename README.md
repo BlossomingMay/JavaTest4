@@ -12,6 +12,11 @@
 设置了debug级别，会显示执行的sql语句。
 
 
+SpringBootModel文件是项目的源文件，尝试 IDEA rename项目名称似乎不能修改文件夹的真正名称，由于项目已经做完了就没有在改名字了，
+在本地测试实现了几乎全部的规定的功能，除了根据返回的customerId进行下一步操作，由于对shell不够熟悉，id是强制规定一致的，没有通过curl动态获得。
+
+子模块的README.md没写东西，无需阅读。
+
 ### 包结构
 ![](http://ww4.sinaimg.cn/large/006tNc79gy1g5dcwrjzc0j30ms0v6mzz.jpg)
 
@@ -38,10 +43,6 @@
 
 ```
 
-SpringBootModel文件是项目的源文件，尝试 IDEA rename项目名称似乎不能修改文件夹的真正名称，由于项目已经做完了就没有在改名字了，
-在本地测试实现了几乎全部的规定的功能，除了根据返回的customerId进行下一步操作，由于对shell不够熟悉，id是强制规定一致的，没有通过curl动态获得。
-
-子模块的README.md没写东西，无需阅读。
 
 
 
